@@ -1,0 +1,17 @@
+Welcome to our sample data file!
+This file contains various types of information.
+Here are some random facts:
+
+1. The Great Wall of China is visible from space.
+2. Honey never spoils.
+3. The shortest war in history lasted 38 minutes.
+
+Now, let's add some numbers:
+- 42 is often called the "Answer to the Ultimate Question of Life, the Universe, and Everything"
+- Pi (π) is approximately 3.14159
+
+Here's a famous quote:
+"To be or not to be, that is the question." - William Shakespeare
+
+Thank you for reading this sample file!
+End of data.
