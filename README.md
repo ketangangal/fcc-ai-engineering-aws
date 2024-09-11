@@ -16,7 +16,7 @@ This course dives deep into the world of AI engineering, leveraging the power of
 
 ### ✅ Completed Sections
 
-- [Introduction to LangChain](LangChain-Bedrock.ipynb)
+- [Introduction to LangChain with Amazon Bedrock](LangChain-Bedrock.ipynb)
   - Explore the fundamentals of LangChain and its integration with AWS services
   - Learn to build conversational AI and question-answering systems
   - Hands-on examples using Amazon Bedrock's powerful language models
