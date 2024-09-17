@@ -6,18 +6,17 @@ Welcome to the AI Engineering on AWS course repository! This comprehensive cours
 
 This course dives deep into the world of AI engineering, leveraging the power of AWS to build sophisticated AI systems. With a strong focus on Multimodal Retrieval Augmented Generation (RAG), you'll learn to:
 
-- Implement advanced RAG techniques using [LangChain](https://python.langchain.com/) and [LlamaIndex](https://www.llamaindex.ai/)
-- Develop and deploy AI models with [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- Implement advanced RAG techniques using [LangChain](https://python.langchain.com/), [LlamaIndex](https://www.llamaindex.ai/) and [Unstructured](https://unstructured.io/)
+- Use different foundational models with [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 - Create powerful multimodal AI systems capable of processing both text and image data
-- Explore cutting-edge Multimodal RAG techniques for enhanced information retrieval and generation
-- Fine-tune large language models for specific tasks and domains
-- Implement practical Multimodal RAG applications using AWS services
+- Explore cutting-edge Multimodal RAG techniques for enhanced information retrieval and generation with [OpenSearch](https://aws.amazon.com/opensearch-service/)
+- Fine-tune large language models for specific tasks and domains with [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- Implement practical Multimodal RAG applications using AWS services and tools, like Lambda, API Gateway, DynamoDB, and more
 - Evaluate and optimize AI model performance for production environments
 
 Our course emphasizes hands-on experience with Multimodal RAG, enabling you to build context-aware AI systems that can understand and process both textual and visual information effectively.
 
 ## 📚 Course Contents
-
 This course covers the following areas:
 
 1. LangChain with Amazon Bedrock
@@ -74,7 +73,7 @@ This course covers the following areas:
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/): Fully managed service for building generative AI applications
 - [LangChain](https://python.langchain.com/): Framework for developing applications powered by language models
 - [LlamaIndex](https://www.llamaindex.ai/): Data framework for building LLM applications
-- [OpenSearch](https://opensearch.org/): Search and analytics suite for building scalable solutions
+- [OpenSearch](https://aws.amazon.com/opensearch-service/): Search and analytics suite for building scalable solutions
 - [Unstructured](https://unstructured.io/): A platform that provides tools and APIs to preprocess and structure unstructured data like documents, images, and text for easier analysis and machine learning applications.
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/): Fully managed service that offers a choice of high-performing foundation models
 - [Jupyter Notebooks](https://jupyter.org/): Interactive computing environment for creating and sharing documents with live code
