@@ -22,16 +22,18 @@ This course dives deep into the world of AI engineering, leveraging the power of
   - Hands-on examples using Amazon Bedrock's powerful language models
   - Discover how to chain multiple AI tasks for complex workflows
 
+- [Multimodal RAG](multimodal-rag/)
+  - [Multimodal with Amazon Bedrock](multimodal-rag/01_Bedrock_Multimodal.ipynb)
+  - [Multimodal Search and Retrieval](multimodal-rag/02_Bedrock_Multimodal_Search_Retrieval.ipynb)
+  - [Multimodal RAG with Bedrock and OpenSearch](multimodal-rag/03_Bedrock_Multimodal_RAG.ipynb)
+  - [Multimodal Application for Personalization](multimodal-rag/04_Multimodal_App_Personalization.ipynb)
+
 ### 🔜 Upcoming Sections
 
 - Introduction to RAG and Advanced RAG with LlamaIndex
   - Understand the principles of Retrieval-Augmented Generation
   - Implement advanced RAG techniques using LlamaIndex
   - Learn to create knowledge bases and efficient retrieval systems
-
-- Multimodal RAG
-  - Explore techniques for handling text, images, and other data types
-  - Build AI systems capable of understanding and generating multimodal content
 
 - Fine-tuning
   - Learn the fundamentals of model fine-tuning
@@ -52,16 +54,15 @@ This course dives deep into the world of AI engineering, leveraging the power of
   - Learn to interpret RAGAS scores and improve your RAG pipeline
   - Hands-on exercises to evaluate and optimize your RAG models
 
-## 🛠 Technologies Used
+## 🛠 Technologies/Tools Used
 
 - [Amazon Web Services (AWS)](https://aws.amazon.com/): Cloud platform providing a wide range of AI and machine learning services
 - [LangChain](https://python.langchain.com/): Framework for developing applications powered by language models
 - [LlamaIndex](https://www.llamaindex.ai/): Data framework for building LLM applications
+- [Unstructured](https://unstructured.io/): A platform that provides tools and APIs to preprocess and structure unstructured data like documents, images, and text for easier analysis and machine learning applications.
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/): Fully managed service that offers a choice of high-performing foundation models
 - [Jupyter Notebooks](https://jupyter.org/): Interactive computing environment for creating and sharing documents with live code
 - [RAGAS](https://github.com/explodinggradients/ragas): Evaluation framework for Retrieval Augmented Generation systems
-
-
 
 ## 🎓 Learning Objectives
 
@@ -73,6 +74,7 @@ By the end of this course, you will be able to:
 4. Leverage Amazon Bedrock for efficient model deployment and scaling
 5. Implement comprehensive evaluation strategies using RAGAS to assess and improve RAG system performance
 6. Build production-ready AI systems that can be deployed in real-world scenarios
+7. Understand and apply best practices for responsible AI development and deployment
 
 ## 📌 Note
 
@@ -87,3 +89,20 @@ We welcome contributions, issues, and feature requests! If you have suggestions 
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed. Feel free to use, modify, and distribute the content while providing appropriate attribution.
 
 Happy learning, and welcome to the exciting world of AI engineering with AWS!
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/debnsuma/fcc-ai-engineering-aws.git
+   ```
+2. Set up your AWS account and configure your credentials
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Open the Jupyter notebooks and start exploring!
+
+## 📅 Course Schedule
+
+This course is designed to be self-paced. However, we recommend dedicating 3-4 weeks to complete all sections thoroughly. New content is added regularly, so check back often for updates.
