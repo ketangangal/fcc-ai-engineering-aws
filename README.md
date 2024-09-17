@@ -28,21 +28,19 @@ This course covers the following areas:
 
 ### ✅ Completed Sections
 
-- [Introduction to LangChain with Amazon Bedrock](LangChain-Bedrock.ipynb)
-  - Explore the fundamentals of LangChain and its integration with AWS services
-  - Learn to build conversational AI and question-answering systems
-  - Hands-on examples using Amazon Bedrock's powerful language models
-  - Discover how to chain multiple AI tasks for complex workflows
+- **Introduction to LangChain with Amazon Bedrock**  
+  Explore the fundamentals of LangChain and its integration with Amazon Bedrock. Learn to build conversational AI and question-answering systems. Hands-on examples using Amazon Bedrock's powerful language models, and discover how to chain multiple AI tasks for complex workflows.
+  - [Introduction to LangChain with Amazon Bedrock](LangChain-Bedrock.ipynb)  
 
-- [Multimodal RAG with Amazon Bedrock](multimodal-rag/)
+
+- **Multimodal RAG with Amazon Bedrock**  
+  Learn how to process and analyze both text and image data. Explore advanced multimodal search and retrieval techniques, implement Multimodal Retrieval Augmented Generation (RAG) using AWS services, and develop a practical multimodal application for personalized recommendations.
   - [Introduction to Multimodal AI with Amazon Bedrock](multimodal-rag/01_Bedrock_Multimodal.ipynb)
   - [Multimodal Search and Retrieval Techniques](multimodal-rag/02_Bedrock_Multimodal_Search_Retrieval.ipynb)
   - [Implementing Multimodal RAG with Bedrock and OpenSearch](multimodal-rag/03_Bedrock_Multimodal_RAG.ipynb)
   - [Building a Multimodal Application for Personalization](multimodal-rag/04_Multimodal_App_Personalization.ipynb)
-  - Learn how to process and analyze both text and image data
-  - Explore advanced multimodal search and retrieval techniques
-  - Implement Multimodal Retrieval Augmented Generation (RAG) using AWS services
-  - Develop a practical multimodal application for personalized recommendations
+
+
 
 ### 🔜 Upcoming Sections
 
