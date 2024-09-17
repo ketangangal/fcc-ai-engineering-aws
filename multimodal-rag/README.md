@@ -1,4 +1,4 @@
-# Multimodal RAG with Amazon Bedrock
+![Multimodal RAG with Amazon Bedrock](../img/img3.png)
 
 This folder contains notebooks demonstrating Multimodal Retrieval Augmented Generation (RAG) techniques.
 

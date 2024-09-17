@@ -1,4 +1,4 @@
-# LangChain with Amazon Bedrock
+![LangChain with Amazon Bedrock](../img/img2.png)
 
 This folder contains resources demonstrating the use of LangChain with Amazon Bedrock for various AI tasks.
 
