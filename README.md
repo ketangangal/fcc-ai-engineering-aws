@@ -1,6 +1,6 @@
 ![AI Engineering on AWS](img/img1.png)
 
-Welcome to the AI Engineering on AWS course repository! This comprehensive course focuses on cutting-edge AI techniques, including LangChain integration with Amazon Bedrock and Multimodal Retrieval Augmented Generation (RAG). Designed for AI enthusiasts and professionals, this course covers advanced techniques in Retrieval-Augmented Generation (RAG), Multimodal RAG, and model fine-tuning using AWS services. The course is hosted on [FreeCodeCamp](https://www.freecodecamp.org/), making advanced AI engineering accessible to all.
+Welcome to the **AI Engineering on AWS** course repository! This comprehensive course focuses on cutting-edge AI techniques, including **LangChain** integration with **Amazon Bedrock** and **Multimodal Retrieval-Augmented Generation (RAG)**. Designed for AI enthusiasts and professionals, this course covers advanced techniques in **RAG**, **Multimodal RAG**, and model **fine-tuning** using Amazon Bedrock.
 
 ## 🎯 Course Overview
 
@@ -27,12 +27,12 @@ This course covers the following areas:
 
 ### ✅ Completed Sections
 
-- **Introduction to LangChain with Amazon Bedrock**  
+- ✅ **Introduction to LangChain with Amazon Bedrock**  
   Explore the fundamentals of LangChain and its integration with Amazon Bedrock. Learn to build conversational AI and question-answering systems. Hands-on examples using Amazon Bedrock's powerful language models, and discover how to chain multiple AI tasks for complex workflows.
   - [Introduction to LangChain with Amazon Bedrock](LangChain-Bedrock.ipynb)  
 
 
-- **Multimodal RAG with Amazon Bedrock**  
+- ✅ **Multimodal RAG with Amazon Bedrock**  
   Learn how to process and analyze both text and image data. Explore advanced multimodal search and retrieval techniques, implement Multimodal Retrieval Augmented Generation (RAG) using AWS services, and develop a practical multimodal application for personalized recommendations.
   - [Introduction to Multimodal AI with Amazon Bedrock](multimodal-rag/01_Bedrock_Multimodal.ipynb)
   - [Multimodal Search and Retrieval Techniques](multimodal-rag/02_Bedrock_Multimodal_Search_Retrieval.ipynb)
@@ -43,27 +43,22 @@ This course covers the following areas:
 
 ### 🔜 Upcoming Sections
 
-- Introduction to RAG and Advanced RAG with LlamaIndex
+- **Introduction to RAG and Advanced RAG with LlamaIndex**
   - Understand the principles of Retrieval-Augmented Generation
   - Implement advanced RAG techniques using LlamaIndex
   - Learn to create knowledge bases and efficient retrieval systems
 
-- Fine-tuning
+- **Fine-tuning**
   - Learn the fundamentals of model fine-tuning
   - Understand when and how to fine-tune pre-trained models
 
-- Fine-tuning with Bedrock
+- **Fine-tuning with Bedrock**
   - Leverage Amazon Bedrock for efficient model fine-tuning
   - Optimize models for specific tasks and domains
 
-- Model Evaluation with RAGAS
+- **Model Evaluation with RAGAS**
   - Introduction to [RAGAS](https://github.com/explodinggradients/ragas) (Retrieval Augmented Generation Evaluation Suite)
-  - Implement comprehensive evaluation metrics for RAG systems:
-    - Context Relevancy: Assess the relevance of retrieved context
-    - Faithfulness: Measure how well the generated answer aligns with the given context
-    - Answer Relevancy: Evaluate the relevance of the generated answer to the question
-    - Contextual Precision: Gauge the precision of the retrieved context
-    - Contextual Recall: Measure the recall of important information from the context
+  - Implement comprehensive evaluation metrics for RAG systems
   - Learn to interpret RAGAS scores and improve your RAG pipeline
   - Hands-on exercises to evaluate and optimize your RAG models
 
@@ -119,7 +114,3 @@ Happy learning, and welcome to the exciting world of AI engineering with AWS!
    pip install -r requirements.txt
    ```
 4. Open the Jupyter notebooks and start exploring!
-
-## 📅 Course Schedule
-
-This course is designed to be self-paced. However, we recommend dedicating 3-4 weeks to complete all sections thoroughly. New content is added regularly, so check back often for updates.
