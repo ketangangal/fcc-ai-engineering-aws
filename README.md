@@ -88,6 +88,19 @@ By the end of this course, you will be able to:
 6. Build production-ready AI systems that can be deployed in real-world scenarios
 7. Understand and apply best practices for responsible AI development and deployment
 
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/debnsuma/fcc-ai-engineering-aws.git
+   ```
+2. Set up your AWS account and configure your credentials
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Open the Jupyter notebooks and start exploring!
+
 ## 📌 Note
 
 This repository is actively being updated as the course progresses. We regularly add new content, examples, and exercises to enhance your learning experience. Stay tuned for more exciting updates!
@@ -102,15 +115,3 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed. Feel f
 
 Happy learning, and welcome to the exciting world of AI engineering with AWS!
 
-## 🚀 Getting Started
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/debnsuma/fcc-ai-engineering-aws.git
-   ```
-2. Set up your AWS account and configure your credentials
-3. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-4. Open the Jupyter notebooks and start exploring!
