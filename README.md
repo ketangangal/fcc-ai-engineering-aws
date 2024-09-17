@@ -1,18 +1,30 @@
 ![AI Engineering on AWS](img/img1.png)
 
-Welcome to the AI Engineering on AWS course repository! This comprehensive course focuses on cutting-edge techniques in Retrieval-Augmented Generation (RAG) and model fine-tuning using AWS services. Designed for AI enthusiasts and professionals, this course is hosted on [FreeCodeCamp](https://www.freecodecamp.org/), making advanced AI engineering accessible to all.
+Welcome to the AI Engineering on AWS course repository! This comprehensive course focuses on cutting-edge AI techniques, including LangChain integration with Amazon Bedrock and Multimodal Retrieval Augmented Generation (RAG). Designed for AI enthusiasts and professionals, this course covers advanced techniques in Retrieval-Augmented Generation (RAG), Multimodal RAG, and model fine-tuning using AWS services. The course is hosted on [FreeCodeCamp](https://www.freecodecamp.org/), making advanced AI engineering accessible to all.
 
 ## 🎯 Course Overview
 
-This course dives deep into the world of AI engineering, leveraging the power of AWS to build sophisticated AI systems. You'll learn to:
+This course dives deep into the world of AI engineering, leveraging the power of AWS to build sophisticated AI systems. With a strong focus on Multimodal Retrieval Augmented Generation (RAG), you'll learn to:
 
 - Implement advanced RAG techniques using [LangChain](https://python.langchain.com/) and [LlamaIndex](https://www.llamaindex.ai/)
 - Develop and deploy AI models with [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- Create powerful multimodal AI systems capable of processing both text and image data
+- Explore cutting-edge Multimodal RAG techniques for enhanced information retrieval and generation
 - Fine-tune large language models for specific tasks and domains
-- Create multimodal AI systems capable of processing various data types
+- Implement practical Multimodal RAG applications using AWS services
 - Evaluate and optimize AI model performance for production environments
 
+Our course emphasizes hands-on experience with Multimodal RAG, enabling you to build context-aware AI systems that can understand and process both textual and visual information effectively.
+
 ## 📚 Course Contents
+
+This course covers the following areas:
+
+1. LangChain with Amazon Bedrock
+2. Retrieval Augmented Generation (RAG) with Amazon Bedrock
+3. Multimodal RAG with Amazon Bedrock
+4. Fine-tuning with Bedrock
+5. Model Evaluation with Retrieval Augmented Generation Evaluation Suite (RAGAS)
 
 ### ✅ Completed Sections
 
@@ -22,11 +34,15 @@ This course dives deep into the world of AI engineering, leveraging the power of
   - Hands-on examples using Amazon Bedrock's powerful language models
   - Discover how to chain multiple AI tasks for complex workflows
 
-- [Multimodal RAG](multimodal-rag/)
-  - [Multimodal with Amazon Bedrock](multimodal-rag/01_Bedrock_Multimodal.ipynb)
-  - [Multimodal Search and Retrieval](multimodal-rag/02_Bedrock_Multimodal_Search_Retrieval.ipynb)
-  - [Multimodal RAG with Bedrock and OpenSearch](multimodal-rag/03_Bedrock_Multimodal_RAG.ipynb)
-  - [Multimodal Application for Personalization](multimodal-rag/04_Multimodal_App_Personalization.ipynb)
+- [Multimodal RAG with Amazon Bedrock](multimodal-rag/)
+  - [Introduction to Multimodal AI with Amazon Bedrock](multimodal-rag/01_Bedrock_Multimodal.ipynb)
+  - [Multimodal Search and Retrieval Techniques](multimodal-rag/02_Bedrock_Multimodal_Search_Retrieval.ipynb)
+  - [Implementing Multimodal RAG with Bedrock and OpenSearch](multimodal-rag/03_Bedrock_Multimodal_RAG.ipynb)
+  - [Building a Multimodal Application for Personalization](multimodal-rag/04_Multimodal_App_Personalization.ipynb)
+  - Learn how to process and analyze both text and image data
+  - Explore advanced multimodal search and retrieval techniques
+  - Implement Multimodal Retrieval Augmented Generation (RAG) using AWS services
+  - Develop a practical multimodal application for personalized recommendations
 
 ### 🔜 Upcoming Sections
 
@@ -57,8 +73,10 @@ This course dives deep into the world of AI engineering, leveraging the power of
 ## 🛠 Technologies/Tools Used
 
 - [Amazon Web Services (AWS)](https://aws.amazon.com/): Cloud platform providing a wide range of AI and machine learning services
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/): Fully managed service for building generative AI applications
 - [LangChain](https://python.langchain.com/): Framework for developing applications powered by language models
 - [LlamaIndex](https://www.llamaindex.ai/): Data framework for building LLM applications
+- [OpenSearch](https://opensearch.org/): Search and analytics suite for building scalable solutions
 - [Unstructured](https://unstructured.io/): A platform that provides tools and APIs to preprocess and structure unstructured data like documents, images, and text for easier analysis and machine learning applications.
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/): Fully managed service that offers a choice of high-performing foundation models
 - [Jupyter Notebooks](https://jupyter.org/): Interactive computing environment for creating and sharing documents with live code
@@ -69,6 +87,8 @@ This course dives deep into the world of AI engineering, leveraging the power of
 By the end of this course, you will be able to:
 
 1. Design and implement advanced RAG systems using state-of-the-art techniques
+2. Develop Multimodal RAG applications that process both text and image data
+3. Leverage AWS services for building scalable AI solutions
 2. Develop multimodal AI applications capable of processing and generating various data types
 3. Fine-tune large language models to achieve superior performance on specific tasks
 4. Leverage Amazon Bedrock for efficient model deployment and scaling
