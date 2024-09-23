@@ -29,7 +29,7 @@ This course covers the following areas:
 
 - ✅ **Introduction to LangChain with Amazon Bedrock**  
   Explore the fundamentals of LangChain and its integration with Amazon Bedrock. Learn to build conversational AI and question-answering systems. Hands-on examples using Amazon Bedrock's powerful language models, and discover how to chain multiple AI tasks for complex workflows.
-  - [Introduction to LangChain with Amazon Bedrock](LangChain-Bedrock.ipynb)  
+  - [Introduction to LangChain with Amazon Bedrock](langchain/01_LangChain-Bedrock.ipynb)  
 
 
 - ✅ **Multimodal RAG with Amazon Bedrock**  
