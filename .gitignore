@@ -1,6 +1,13 @@
 # Ignore 
 bk/
 bk/**
+# Ignore all files in the .ipynb_checkpoints directory
+.ipynb_checkpoints/**
+
+# Ignore all files in the .DS_Store directory
+.DS_Store/**
+
+
 
 # Common files to ignore
 .DS_Store

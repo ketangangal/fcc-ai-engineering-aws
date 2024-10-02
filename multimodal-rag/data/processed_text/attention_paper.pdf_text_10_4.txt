@@ -1,0 +1,4 @@
+arXiv:1609.08144, 2016.
+[32] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with
+fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016.
+11
