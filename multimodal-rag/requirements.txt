@@ -11,3 +11,8 @@ tabula
 tqdm
 pillow
 matplotlib
+langchain_postgres
+python-dotenv
+pgvector==0.2.3
+psycopg-binary
+
