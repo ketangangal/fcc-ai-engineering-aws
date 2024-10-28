@@ -7,35 +7,35 @@ EN-DE
 EN-FR
 EN-DE
 EN-FR
-ByteNet [15]
+ByteNet [18]
 23.75
-Deep-Att + PosUnk [32]
+Deep-Att + PosUnk [39]
 39.2
 1.0 · 1020
-GNMT + RL [31]
+GNMT + RL [38]
 24.6
 39.92
 2.3 · 1019
 1.4 · 1020
-ConvS2S [8]
+ConvS2S [9]
 25.16
 40.46
 9.6 · 1018
 1.5 · 1020
-MoE [26]
+MoE [32]
 26.03
 40.56
 2.0 · 1019
 1.2 · 1020
-Deep-Att + PosUnk Ensemble [32]
+Deep-Att + PosUnk Ensemble [39]
 40.4
 8.0 · 1020
-GNMT + RL Ensemble [31]
+GNMT + RL Ensemble [38]
 26.30
 41.16
 1.8 · 1020
 1.1 · 1021
-ConvS2S Ensemble [8]
+ConvS2S Ensemble [9]
 26.36
 41.29
 7.7 · 1019
@@ -46,5 +46,5 @@ Transformer (base model)
 3.3 · 1018
 Transformer (big)
 28.4
-41.0
+41.8
 2.3 · 1019

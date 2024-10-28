@@ -1,9 +1,21 @@
-reading. arXiv preprint arXiv:1601.06733, 2016.
-[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk,
-and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical
-machine translation. CoRR, abs/1406.1078, 2014.
-[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv
-preprint arXiv:1610.02357, 2016.
-[7] Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation
-of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.
-[8] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolu-
+91.3
+McClosky et al. (2006) [26]
+semi-supervised
+92.1
+Vinyals & Kaiser el al. (2014) [37]
+semi-supervised
+92.1
+Transformer (4 layers)
+semi-supervised
+92.7
+Luong et al. (2015) [23]
+multi-task
+93.0
+Dyer et al. (2016) [8]
+generative
+93.3
+increased the maximum output length to input length + 300. We used a beam size of 21 and α = 0.3
+for both WSJ only and the semi-supervised setting.
+Our results in Table 4 show that despite the lack of task-specific tuning our model performs sur-
+prisingly well, yielding better results than all previously reported models with the exception of the
+Recurrent Neural Network Grammar [8].

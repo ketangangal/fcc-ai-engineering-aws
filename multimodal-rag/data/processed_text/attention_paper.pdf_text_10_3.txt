@@ -1,8 +1,9 @@
-networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.
-[30] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna.
-Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.
-[31] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang
-Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine
-translation system: Bridging the gap between human and machine translation. arXiv preprint
-arXiv:1609.08144, 2016.
-[32] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with
+across languages. In Proceedings of the 2009 Conference on Empirical Methods in Natural
+Language Processing, pages 832–841. ACL, August 2009.
+[15] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring
+the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.
+[16] Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Advances in Neural
+Information Processing Systems, (NIPS), 2016.
+[17] Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference
+on Learning Representations (ICLR), 2016.
+[18] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Ko-

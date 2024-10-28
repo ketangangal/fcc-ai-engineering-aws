@@ -1,3 +1,6 @@
+Provided proper attribution is provided, Google hereby grants permission to
+reproduce the tables and figures in this paper solely for use in journalistic or
+scholarly works.
 Attention Is All You Need
 Ashish Vaswani∗
 Google Brain
@@ -24,5 +27,3 @@ Illia Polosukhin∗‡
 illia.polosukhin@gmail.com
 Abstract
 The dominant sequence transduction models are based on complex recurrent or
-convolutional neural networks that include an encoder and a decoder. The best
-performing models also connect the encoder and decoder through an attention

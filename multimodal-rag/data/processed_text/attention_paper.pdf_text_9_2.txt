@@ -1,11 +1,10 @@
-of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.
-[8] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolu-
-tional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017.
-[9] Alex Graves.
-Generating sequences with recurrent neural networks.
-arXiv preprint
-arXiv:1308.0850, 2013.
-[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for im-
-age recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern
-Recognition, pages 770–778, 2016.
-[11] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient ﬂow in
+prisingly well, yielding better results than all previously reported models with the exception of the
+Recurrent Neural Network Grammar [8].
+In contrast to RNN sequence-to-sequence models [37], the Transformer outperforms the Berkeley-
+Parser [29] even when training only on the WSJ training set of 40K sentences.
+7
+Conclusion
+In this work, we presented the Transformer, the first sequence transduction model based entirely on
+attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with
+multi-headed self-attention.
+For translation tasks, the Transformer can be trained significantly faster than architectures based

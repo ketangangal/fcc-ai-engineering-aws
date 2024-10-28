@@ -75,6 +75,6 @@ big
 4.33
 26.4
 213
-In Table 3 rows (B), we observe that reducing the attention key size dk hurts model quality. This
-suggests that determining compatibility is not easy and that a more sophisticated compatibility
-function than dot product may be beneﬁcial. We further observe in rows (C) and (D) that, as expected,
+development set, newstest2013. We used beam search as described in the previous section, but no
+checkpoint averaging. We present these results in Table 3.
+In Table 3 rows (A), we vary the number of attention heads and the attention key and value dimensions,

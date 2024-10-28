@@ -1,6 +1,9 @@
+are used in conjunction with a recurrent network.
+In this work we propose the Transformer, a model architecture eschewing recurrence and instead
+relying entirely on an attention mechanism to draw global dependencies between input and output.
+The Transformer allows for significantly more parallelization and can reach a new state of the art in
+translation quality after being trained for as little as twelve hours on eight P100 GPUs.
+2
+Background
 The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU
-[20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building
-block, computing hidden representations in parallel for all input and output positions. In these models,
-the number of operations required to relate signals from two arbitrary input or output positions grows
-in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet. This makes
-it more difﬁcult to learn dependencies between distant positions [11]. In the Transformer this is
+[16], ByteNet [18] and ConvS2S [9], all of which use convolutional neural networks as basic building

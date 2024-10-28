@@ -1,8 +1,9 @@
-attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with
-multi-headed self-attention.
-For translation tasks, the Transformer can be trained signiﬁcantly faster than architectures based
-on recurrent or convolutional layers. On both WMT 2014 English-to-German and WMT 2014
-English-to-French translation tasks, we achieve a new state of the art. In the former task our best
-model outperforms even all previously reported ensembles.
-We are excited about the future of attention-based models and plan to apply them to other tasks. We
-plan to extend the Transformer to problems involving input and output modalities other than text and
+suggests that determining compatibility is not easy and that a more sophisticated compatibility
+function than dot product may be beneficial. We further observe in rows (C) and (D) that, as expected,
+bigger models are better, and dropout is very helpful in avoiding over-fitting. In row (E) we replace our
+sinusoidal positional encoding with learned positional embeddings [9], and observe nearly identical
+results to the base model.
+6.3
+English Constituency Parsing
+To evaluate if the Transformer can generalize to other tasks we performed experiments on English
+constituency parsing. This task presents specific challenges: the output is subject to strong structural

@@ -1,4 +1,3 @@
-versions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version
 because it may allow the model to extrapolate to sequence lengths longer than the ones encountered
 during training.
 4
@@ -8,3 +7,4 @@ tional layers commonly used for mapping one variable-length sequence of symbol r
 (x1, ..., xn) to another sequence of equal length (z1, ..., zn), with xi, zi ∈Rd, such as a hidden
 layer in a typical sequence transduction encoder or decoder. Motivating our use of self-attention we
 consider three desiderata.
+One is the total computational complexity per layer. Another is the amount of computation that can

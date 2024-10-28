@@ -22,4 +22,6 @@ Self-Attention (restricted)
 O(r · n · d)
 O(1)
 O(n/r)
-bottoms of the encoder and decoder stacks. The positional encodings have the same dimension dmodel
+3.5
+Positional Encoding
+Since our model contains no recurrence and no convolution, in order for the model to make use of the
