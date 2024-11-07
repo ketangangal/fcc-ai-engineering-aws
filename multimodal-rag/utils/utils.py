@@ -5,6 +5,30 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from PIL import ImageFile
 import textwrap
+from PIL import Image
+
+# Compress the image
+def compress_image(input_path, output_path, quality=85, max_width=800, max_height=800):
+    """
+    Compress and reduce the size of an image.
+    
+    Parameters:
+    - input_path (str): Path to the input image.
+    - output_path (str): Path to save the compressed image.
+    - quality (int): Quality of the output image (1 to 95 for JPEG, 1 to 100 for PNG).
+    - max_width (int): Maximum width of the output image.
+    - max_height (int): Maximum height of the output image.
+    """
+    # Open the image
+    img = Image.open(input_path)
+    
+    # Resize the image
+    img.thumbnail((max_width, max_height), Image.LANCZOS)
+    
+    # Save the compressed image as PNG
+    img.save(output_path, format='PNG', optimize=True, quality=quality)
+
+    return f"Image saved at : {output_path}"
 
 # Allow PIL to load truncated images
 ImageFile.LOAD_TRUNCATED_IMAGES = True
