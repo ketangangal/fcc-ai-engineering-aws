@@ -1,3 +1,0 @@
-executed operations, whereas a recurrent layer requires O(n) sequential operations. In terms of
-computational complexity, self-attention layers are faster than recurrent layers when the sequence
-6
