@@ -1,40 +1,15 @@
-# Ignore 
-bk/
-bk/**
 # Ignore all files in the .ipynb_checkpoints directory
 .ipynb_checkpoints/**
 
 # Ignore all files in the .DS_Store directory
 .DS_Store/**
 
+# Ignore all files in the agent-env directory
+./04-knowledge-base-agents/agent/streamlit/agent-env/**
+./04-knowledge-base-agents/agent/streamlit/agent-env
 
 
-# Common files to ignore
-.DS_Store
-Thumbs.db
-*.log
-*.tmp
 
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# IDEs and editors
-.vscode/
-.idea/
-*.swp
-*.swo
 
-# Build outputs
-/dist
-/build
 
-# Env files
-.env
-.env.local
-.env.*.local
-
-# Keep .gitignore
-!.gitignore
