@@ -1,5 +1,16 @@
 ![AI Engineering on AWS](img/img1.png)
 
+<h1 style="background: linear-gradient(to right, #ff6b6b, #4ecdc4); 
+           color: white; 
+           padding: 20px; 
+           border-radius: 10px; 
+           text-align: center; 
+           font-family: Arial, sans-serif; 
+           text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+  Exploring Multimodality and RAG with Amazon Nova, Bedrock, and LangChain
+</h1>
+
+
 Welcome to the **Exploring Multimodality and RAG with Amazon Nova, Bedrock, and LangChain** course repository! This comprehensive course focuses on cutting-edge AI techniques, including **LangChain** integration with **Amazon Bedrock** and **Multimodal Retrieval-Augmented Generation (RAG)** with **Amazon Nova**. Designed for AI enthusiasts and professionals, this course covers advanced techniques in **RAG**, **Multimodal RAG**, and model **fine-tuning** using Amazon Bedrock.
 
 ## 🎯 Overview
