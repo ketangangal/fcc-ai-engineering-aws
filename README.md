@@ -1,6 +1,6 @@
 ![AI Engineering on AWS](img/img1.png)
 
-Welcome to the **AI Engineering on AWS** course repository! This comprehensive course focuses on cutting-edge AI techniques, including **LangChain** integration with **Amazon Bedrock** and **Multimodal Retrieval-Augmented Generation (RAG)**. Designed for AI enthusiasts and professionals, this course covers advanced techniques in **RAG**, **Multimodal RAG**, and model **fine-tuning** using Amazon Bedrock.
+Welcome to the **Exploring Multimodality and RAG with Amazon Nova, Bedrock, and LangChain** course repository! This comprehensive course focuses on cutting-edge AI techniques, including **LangChain** integration with **Amazon Bedrock** and **Multimodal Retrieval-Augmented Generation (RAG)** with **Amazon Nova**. Designed for AI enthusiasts and professionals, this course covers advanced techniques in **RAG**, **Multimodal RAG**, and model **fine-tuning** using Amazon Bedrock.
 
 ## 🎯 Overview
 

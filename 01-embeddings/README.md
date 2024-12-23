@@ -1,6 +1,6 @@
 # Embeddings for NLP
 
-Welcome to the Embeddings for NLP repository. This repository contains a Jupyter Notebook, `main.ipynb`, which covers various concepts related to embeddings in Natural Language Processing (NLP). This is based on the book [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
+Welcome to the Embeddings for NLP repository. This repository contains a Jupyter Notebook, `embeddings-for-nlp.ipynb`, which covers various concepts related to embeddings in Natural Language Processing (NLP). This is based on the book [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
 
 ## Overview
 
@@ -16,27 +16,6 @@ Join us for an engaging exploration of the initial challenges of segmenting text
 - **Byte Pair Encoding (BPE)**: Exploring the efficiency and benefits of BPE in tokenization.
 - **Sliding Windows for Better Training Data**: Utilizing sliding windows to enhance the quality of training data.
 - **Converting Tokens into Vectors**: Methods for converting tokens into numerical vectors for model training.
-
-## Getting Started
-
-To get started with this repository, follow these steps:
-
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/debnsuma/nlp-embeddings
-    ```
-2. **Navigate to the repository directory**:
-    ```sh
-    cd embeddings-for-nlp
-    ```
-3. **Install the required dependencies**:
-    ```sh
-    pip install -r requirements.txt
-    ```
-4. **Open the Jupyter Notebook**:
-    ```sh
-    jupyter notebook main.ipynb
-    ```
 
 ## Prerequisites
 
