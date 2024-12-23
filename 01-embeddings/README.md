@@ -1,27 +1,27 @@
 # Embeddings for NLP
 
-Welcome to the Embeddings for NLP repository. This repository contains a Jupyter Notebook, `embeddings-for-nlp.ipynb`, which covers various concepts related to embeddings in Natural Language Processing (NLP). This is based on the book [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
+This repository contains a Jupyter Notebook demonstrating practical implementations of embeddings in Natural Language Processing (NLP). The notebook (`embeddings-for-nlp.ipynb`) provides hands-on examples and explanations of embedding concepts.
 
 ## Overview
 
-Have you ever wondered how machines understand the nuances of human language? It all starts with tokenization, the foundational step in training language models to grasp our complex languages. This repository delves deep into this foundational element, demonstrating how tokenization enables machines to decode and process human speech through the lens of NLP.
+Embeddings are fundamental to modern NLP, allowing us to represent words and tokens as dense vectors that capture semantic relationships. This notebook provides a practical exploration of embedding concepts, from basic implementations to more advanced techniques.
 
-Join us for an engaging exploration of the initial challenges of segmenting text into manageable pieces to the sophisticated techniques that enable deeper language understanding. Whether you’re just starting out or looking to brush up on the latest in NLP, this repository promises a blend of foundational knowledge and advanced insights.
+## Contents
 
-## Concepts Covered
+The notebook covers:
+- Basic concepts of word embeddings
+- Implementation of embedding layers
+- Techniques for working with embeddings
+- Practical examples and visualizations
 
-- **Introduction to Tokenization**: Understanding the basics and importance of tokenization in NLP.
-- **Impact of Tokenization on Language Models**: Exploring how tokenization affects the performance and efficiency of language models.
-- **Text Splitting for Deeper Analysis**: Techniques for splitting text into meaningful segments for better analysis.
-- **Byte Pair Encoding (BPE)**: Exploring the efficiency and benefits of BPE in tokenization.
-- **Sliding Windows for Better Training Data**: Utilizing sliding windows to enhance the quality of training data.
-- **Converting Tokens into Vectors**: Methods for converting tokens into numerical vectors for model training.
+## Requirements
 
-## Prerequisites
+- Python 3.12+
+- PyTorch
+- NumPy
 
-- Python 3.x
-- Jupyter Notebook
-- Libraries: numpy, torch
+## Getting Started
 
-
-
+1. Clone this repository
+2. Install the required dependencies
+3. Open `embeddings-for-nlp.ipynb` in Jupyter Notebook
