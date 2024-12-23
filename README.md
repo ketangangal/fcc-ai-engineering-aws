@@ -16,51 +16,15 @@ This course dives deep into the world of AI engineering, leveraging the power of
 
 Our course emphasizes hands-on experience with Multimodal RAG, enabling you to build context-aware AI systems that can understand and process both textual and visual information effectively.
 
-## 📚 Contents
-This course covers the following areas:
+## 📚 Course Structure
 
-1. LangChain with Amazon Bedrock
-2. Retrieval Augmented Generation (RAG) with Amazon Bedrock
-3. Multimodal RAG with Amazon Bedrock
-4. Fine-tuning with Bedrock
-5. Model Evaluation with Retrieval Augmented Generation Evaluation Suite (RAGAS)
-
-### ✅ Completed Sections
-
-- ✅ **Introduction to LangChain with Amazon Bedrock**  
-  Explore the fundamentals of LangChain and its integration with Amazon Bedrock. Learn to build conversational AI and question-answering systems. Hands-on examples using Amazon Bedrock's powerful language models, and discover how to chain multiple AI tasks for complex workflows.
-  - [Introduction to LangChain with Amazon Bedrock](langchain/01_LangChain-Bedrock.ipynb)  
-
-
-- ✅ **Multimodal RAG with Amazon Bedrock**  
-  Learn how to process and analyze both text and image data. Explore advanced multimodal search and retrieval techniques, implement Multimodal Retrieval Augmented Generation (RAG) using AWS services, and develop a practical multimodal application for personalized recommendations.
-  - [Introduction to Multimodal AI with Amazon Bedrock](multimodal-rag/01_Bedrock_Multimodal.ipynb)
-  - [Multimodal Search and Retrieval Techniques](multimodal-rag/02_Bedrock_Multimodal_Search_Retrieval.ipynb)
-  - [Implementing Multimodal RAG with Bedrock and OpenSearch](multimodal-rag/03_Bedrock_Multimodal_RAG.ipynb)
-  - [Building a Multimodal Application for Personalization](multimodal-rag/04_Multimodal_App_Personalization.ipynb)
-
-
-
-### 🔜 Upcoming Sections
-
-- **Introduction to RAG and Advanced RAG with LlamaIndex**
-  - Understand the principles of Retrieval-Augmented Generation
-  - Implement advanced RAG techniques using LlamaIndex
-  - Learn to create knowledge bases and efficient retrieval systems
-
-- **Fine-tuning**
-  - Learn the fundamentals of model fine-tuning
-  - Understand when and how to fine-tune pre-trained models
-
-- **Fine-tuning with Bedrock**
-  - Leverage Amazon Bedrock for efficient model fine-tuning
-  - Optimize models for specific tasks and domains
-
-- **Model Evaluation with RAGAS**
-  - Introduction to [RAGAS](https://github.com/explodinggradients/ragas) (Retrieval Augmented Generation Evaluation Suite)
-  - Implement comprehensive evaluation metrics for RAG systems
-  - Learn to interpret RAGAS scores and improve your RAG pipeline
-  - Hands-on exercises to evaluate and optimize your RAG models
+| Module | Topic | Status | Description |
+|--------|-------|--------|-------------|
+| 0 | [LangChain with Amazon Bedrock](00-langchain-bedrock) | ✅ | Build conversational AI systems using LangChain and Bedrock |
+| 1 | [Embeddings in NLP](01-embeddings) | ✅ | Master text embeddings and vector databases |
+| 2 | [Multimodal LLMs](02-multimodal-llm) | ✅ | Process text and image data with advanced LLMs |
+| 3 | [Multimodal RAG](03-multimodal-rag) | ✅ | Implement sophisticated retrieval systems |
+| 4 | [Knowledge Base Agents](04-knowledge-base-agents) | ✅ | Create intelligent agents for knowledge management |
 
 ## 🛠 Technologies/Tools Used
 
@@ -88,22 +52,29 @@ By the end of this course, you will be able to:
 6. Build production-ready AI systems that can be deployed in real-world scenarios
 7. Understand and apply best practices for responsible AI development and deployment
 
-## 🚀 Getting Started
+## ⚡ Quick Start
 
-1. Clone this repository:
-   ```
+1. **Clone & Setup**
+   ```bash
    git clone https://github.com/debnsuma/fcc-ai-engineering-aws.git
+   cd fcc-ai-engineering-aws
    ```
-2. Set up your AWS account and configure your credentials
-3. Install the required dependencies:
+
+2. **Configure AWS**
+   ```bash
+   aws configure
+   # Follow prompts to enter your AWS credentials
    ```
+
+3. **Install Dependencies**
+   ```bash
    pip install -r requirements.txt
    ```
-4. Open the Jupyter notebooks and start exploring!
 
-## 📌 Note
-
-This repository is actively being updated as the course progresses. We regularly add new content, examples, and exercises to enhance your learning experience. Stay tuned for more exciting updates!
+4. **Launch Jupyter**
+   ```bash
+   jupyter lab
+   ```
 
 ## 🤝 Contributing
 
