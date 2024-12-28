@@ -187,7 +187,7 @@ st.sidebar.radio("Enable Session", [False, True], key="session_enabled")
 # # Optional: Select filter attribute
 # st.sidebar.subheader('5. (Optional) Filter Setting')
 filter_attributes = ["None", "external", "internal"]
-# filter_attribute = st.sidebar.selectbox("Filter Attribute", filter_attributes)
+filter_attribute = st.sidebar.selectbox("Filter Attribute", filter_attributes)
 
 # Streamlit File Preview Helper Methods
 def show_csv(uploaded_file):
@@ -487,7 +487,7 @@ def main():
     if response:
         st.write("Response:", response)
 
-    st.subheader("Knowledge Bases for Amazon Bedrock - File Upload")
+    st.subheader("Amazon Bedrock Knowledge Bases - File Upload")
 
     if use_agent == "Agent":
         try:
@@ -502,6 +502,7 @@ def main():
             st.error(f"Error fetching knowledge bases: {str(e)}")
 
     # Fetch data sources and their IDs and names
+    # print(f"selected_kb_id: {selected_kb_id}")
     data_sources = fetch_data_sources(selected_kb_id)
     ds_options = [ds['name'] for ds in data_sources]
     selected_ds_name = st.selectbox("Select Data Source", options=ds_options)
