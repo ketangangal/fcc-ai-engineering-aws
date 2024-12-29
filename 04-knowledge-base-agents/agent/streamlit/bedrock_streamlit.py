@@ -169,11 +169,22 @@ else:
     st.session_state['kb_id'] = kb_id
 
 st.sidebar.subheader('3. Select Model ID')
-model_id_list = ["anthropic.claude-3-sonnet", "anthropic.claude-3-haiku", "anthropic.claude-v2:1"]
+model_id_list = [
+    "Amazon Nova Lite",
+    "Amazon Nova Micro",
+    "Amazon Nova Pro",
+    "Anthropic Claude 3 Sonnet",
+    "Anthropic Claude 3 Haiku",
+    "Anthropic Claude V2"
+]
+
 model_id_map = {
-    "anthropic.claude-3-sonnet": "anthropic.claude-3-sonnet-20240229-v1:0",
-    "anthropic.claude-3-haiku": "anthropic.claude-3-haiku-20240307-v1:0",
-    "anthropic.claude-v2:1": "anthropic.claude-v2:1"
+    "Amazon Nova Lite": "amazon.nova-lite-v1:0",
+    "Amazon Nova Micro": "amazon.nova-micro-v1:0",
+    "Amazon Nova Pro": "amazon.nova-pro-v1:0",
+    "Anthropic Claude 3 Sonnet": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "Anthropic Claude 3 Haiku": "anthropic.claude-3-haiku-20240307-v1:0",
+    "Anthropic Claude V2": "anthropic.claude-v2:1"
 }
 
 model_selection = st.sidebar.selectbox("Model ID", model_id_list)
