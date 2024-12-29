@@ -8,7 +8,12 @@
 ./04-knowledge-base-agents/agent/streamlit/agent-env/**
 ./04-knowledge-base-agents/agent/streamlit/agent-env
 
+# Ignore all files for the virtual environment
+04-knowledge-base-agents/agent/streamlit/agent-env
+04-knowledge-base-agents/agent/streamlit/agent-env/** */
 
+04-knowledge-base-agents/agent/streamlit/__pycache__
+04-knowledge-base-agents/agent/streamlit/__pycache__/**
 
 
 
