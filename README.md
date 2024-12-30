@@ -38,7 +38,7 @@ Our course emphasizes hands-on experience with Multimodal RAG, enabling you to b
 | 3 | [Multimodal LLMs](02-multimodal-llm) | ✅ | Process text and image data with advanced LLMs |
 | 4 | [Amazon Nova Multimodal Model](02-multimodal-llm/01_Amazon_Nova.ipynb) | ✅ | Text, Image and Video Understanding with Amazon Nova |
 | 5 | [Multimodal RAG](03-multimodal-rag) | ✅ | Implement sophisticated retrieval systems with Amazon Nova and LangChain |
-| 6 | [Knowledge Base with Agents](04-knowledge-base-agents) | ✅ | Build an end-to-end application with Bedrock Agents and Knowledge Bases with Amazon Nova |
+| 6 | [Agents with Knowledge Bases](04-knowledge-base-agents) | ✅ | Build an end-to-end application with Bedrock Agents and Knowledge Bases with Amazon Nova |
 
 ## 🛠 Technologies/Tools Used
 
