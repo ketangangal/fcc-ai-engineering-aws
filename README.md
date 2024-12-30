@@ -69,4 +69,22 @@ By the end of this course, you will be able to:
 1. **Clone & Setup**
    ```bash
    git clone https://github.com/debnsuma/fcc-ai-engineering-aws.git
+
    cd fcc-ai-engineering-aws
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Notebooks**
+   ```bash
+   jupyter notebook
+   ```
+
+
+## 📝 License
+
+This repository is open-sourced under the MIT License - see the [LICENSE](LICENSE) file for details.
+
