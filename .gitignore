@@ -3,6 +3,7 @@
 
 # Ignore all files in the .DS_Store directory
 .DS_Store/**
+.DS_Store
 
 # Ignore all files in the agent-env directory
 ./04-knowledge-base-agents/agent/streamlit/agent-env/**

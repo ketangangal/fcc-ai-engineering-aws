@@ -15,7 +15,6 @@ This sample solution highlights how you can use Agents and Amazon Bedrock Knowle
 
 ## Agents and Amazon Bedrock Knowledge Bases
 
-### Agents and Knowledge Bases Functionality
 Agents and Amazon Bedrock Knowledge Bases work together to provide the following set of capabilities:
 
 - **Task Orchestration** - Agents expand FMs to understand natural language user inquiries and dissect multi-step tasks into smaller, executable steps.
